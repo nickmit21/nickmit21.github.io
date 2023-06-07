@@ -10,21 +10,54 @@ body{
     display: flex;
     color: aquamarine;
     font-family:Arial, Helvetica, sans-serif;
-    padding: 0 50px;
 }
 
-.suruba{ 
+.flex{
+display: flex;
+height:calc(100vh - 100px) ;
+}
+
+.lateral{
+    color: darkslategrey;  
+    padding: 20px 10px  ;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.principal{ 
     background-color:mediumseagreen ;
     margin: 0;
     width: 20%;
-    height:calc(100vh - 100px) ;
+    
     display: flex;
     justify-content: center;
     align-items:self-start ;
     font-size:25px ;
     color: white;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px;
 }
-.flex{
-    color: darkslategrey;
+.classes{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+.classes div{
+    
+    background-color:mediumseagreen;
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    color: white;
+}
+
+.classes div:hover{
+    background-color: darkslategrey;
+    color: white;
+    text-decoration: underline;
 }
