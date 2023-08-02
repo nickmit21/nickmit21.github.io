@@ -1,3 +1,44 @@
+.menu{
+    background-color: red;
+    padding: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 20px;
+    gap: 10px;
+    
+}
+.menu input{
+    border-radius: 10px;
+}
+body{
+    margin: 0;
+    background-color: blue;
+}
+.palavras{
+    margin: 20px;
+}
+.menusinho{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.menusinho > div{
+    display: flex;
+    gap: 5px;
+}
+
+.direita{
+    width: 150px;
+}
+.texto h1{
+    align-items: center;
+    display: flex; 
+    color: brown;
+    justify-content:center;
+}
 .cards{
     display: flex;
     gap: 15px;
@@ -29,7 +70,4 @@
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-}
-body{
-    background-color: blue;
 }
