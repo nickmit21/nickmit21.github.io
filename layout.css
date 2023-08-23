@@ -10,8 +10,17 @@ body{
     width: 100%;
     top: 0%;
     position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
+.navbar a{
+    color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+} 
 .corpo{
     display: flex;
     margin: 30px;
@@ -30,4 +39,26 @@ body{
     background-color: yellow;
     width: calc(100% - 180px);
 
+}
+.navbar label{
+    display: none;
+}
+
+@media(max-width:600px){
+
+    .lateral{
+        display: none;
+    }
+
+    .main{
+        width:100% ;
+    }
+    .navbar a{
+        display: none;
+    }
+    .navbar label{
+        display: flex;
+        color: white;
+        border: 7px solid red ;
+    }
 }
