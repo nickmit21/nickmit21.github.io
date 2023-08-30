@@ -1,20 +1,17 @@
 .menu{
     background-color: rgb(5, 96, 200);
-    padding: 15px;
     align-items: center;
     display: flex;
     justify-content: space-around;
     color: white;
-    padding: 20px;
+    padding: 30px;
     gap: 10px;
     
 }
 .menu input{
     border-radius: 10px;
 }
-body{
-    margin: 0;
-}
+
 .palavras{
     margin: 20px;
 }
@@ -36,4 +33,36 @@ body{
 
 #pesquisa{
     width: 100%;
+}
+body{
+    margin: 0;
+}
+
+.corpo{
+    display: flex;
+    margin: 0px 160px;
+    justify-content:right;
+}
+
+.main{
+    background-color: yellow;
+    width: 100%;
+}
+.navbar label{
+    display: none;
+}
+
+@media(max-width:100px){
+
+    .main{
+        width:100% ;
+    }
+    .navbar a{
+        display: none;
+    }
+    .navbar label{
+        display: flex;
+        color: white;
+        border: 7px solid red ;
+    }
 }
