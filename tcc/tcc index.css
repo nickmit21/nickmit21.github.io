@@ -1,0 +1,39 @@
+.menu{
+    background-color: rgb(5, 96, 200);
+    padding: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 20px;
+    gap: 10px;
+    
+}
+.menu input{
+    border-radius: 10px;
+}
+body{
+    margin: 0;
+}
+.palavras{
+    margin: 20px;
+}
+.menusinho{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.menusinho input{
+    width: 100%;
+    padding: 13px;
+}
+.menusinho div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#pesquisa{
+    width: 100%;
+}
