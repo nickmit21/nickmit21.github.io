@@ -1,0 +1,86 @@
+.menu{
+    background-color: rgb(5, 96, 200);
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 30px;
+    gap: 10px;
+    
+}
+.menu input{
+    border-radius: 10px;
+}
+
+.palavras{
+    margin: 20px;
+}
+.menusinho{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.menusinho input{
+    width: 100%;
+    padding: 13px;
+}
+.menusinho div{
+    display: flex;
+    align-items: center;
+}
+
+#pesquisa{
+    width: 100%;
+}
+body{
+    margin: 0;
+}
+
+.corpo{
+    display: flex;
+    margin: 0px 160px;
+    justify-content:right;
+}
+
+.main{
+    background-color: yellow;
+    width: 100%;
+}
+.navbar label{
+    display: none;
+}
+
+.cards{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    text-decoration: none;
+    border: 2px solid firebrick;
+    background-color: firebrick;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    height: 240px;
+    width: 200px;
+    overflow: hidden;
+}
+
+.card img{
+    height: 200px;
+    width: 200px;
+}
+
+.card label{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
