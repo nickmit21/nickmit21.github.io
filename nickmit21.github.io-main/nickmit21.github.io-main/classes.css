@@ -1,0 +1,32 @@
+.primeira{
+    background-color: chocolate;
+    color:black;
+    border: 4px dashed black;
+    text-align: center;
+    padding: 10px;
+
+}
+.banner{
+    color: blue;
+    background-color: green;
+    border: 6px dotted gray;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+}
+#borda{
+    border-radius: 30px;
+    border: 10px double blue ;
+
+}
+#mais{
+    color: red;
+}
+#outro{
+    width: 50%;
+}
+#rgb:hover{
+background-color: yellow;
+color: pink;
+border: 20px dashed brown;
+}
