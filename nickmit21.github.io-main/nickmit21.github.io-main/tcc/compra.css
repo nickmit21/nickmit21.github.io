@@ -1,0 +1,68 @@
+.menu{
+    background-color: rgb(5, 96, 200);
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 40px;
+    gap: 10px;
+}
+.menu input{
+    border-radius: 10px;
+}
+
+.palavras{
+    margin: 20px;
+}
+.menusinho{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.menusinho input{
+    width: 100%;
+    padding: 13px;
+}
+.menusinho div{
+    display: flex;
+    align-items: center;
+}
+
+#pesquisa{
+    width: 100%;
+}
+body{
+    margin: 0;
+}
+
+.palavras{
+    margin: 20px;
+}
+
+.direita{
+    width: 150px;
+}
+.palavras h1{
+    align-items: center;
+    display: flex; 
+    color: brown;
+    justify-content:center;
+}
+.palavras h2{
+    align-items: center;
+    display: flex; 
+    color: brown;
+    justify-content:left;
+    margin-left: 120px;
+}
+.palavrinhas{
+    align-items: center;
+    display: flex; 
+    color: brown;
+    justify-content:center;
+}
+.palavrinhas img{
+    height: 250px;
+    width: 250px;
+}

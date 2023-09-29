@@ -1,0 +1,88 @@
+.menu{
+    background-color: rgb(5, 96, 200);
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 30px;
+    gap: 20px;
+}
+.menu input{
+    border-radius: 10px;
+}
+
+.palavras{
+    margin: 20px;
+}
+.menusinho{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.menusinho input{
+    width: 100%;
+    padding: 13px;
+}
+.menusinho div{
+    display: flex;
+    align-items: center;
+}
+
+#pesquisa{
+    width: 100%;
+}
+body{
+    margin: 0;
+}
+
+.corpo{
+    display: flex;
+    margin: 0px 160px;
+    justify-content:right;
+}
+
+.main{
+    background-color: yellow;
+    width: 100%;
+}
+.navbar label{
+    display: none;
+}
+
+.cards{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: black;
+}
+
+.card{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    overflow: hidden;
+    gap: 30px;
+    font-size: 15px;
+    border: 1px double black;
+}
+ .texto{
+    text-align:left;
+}
+.card img{
+    height: 190px;
+    width: 190px;
+}
+
+.card label{
+    height: 195px;
+    display: flex;
+    align-items: center;
+    font-family: system-ui;
+    color: black;
+    gap: 15px;
+    flex-direction: column; 
+}
