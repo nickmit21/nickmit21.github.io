@@ -1,0 +1,63 @@
+body{
+    margin:0;
+}
+.menu{
+    background-color: darkslategrey;
+    height:100px ;
+    width: 100%;
+    justify-content: space-around;
+    align-items:center ;
+    display: flex;
+    color: aquamarine;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.flex{
+display: flex;
+height:calc(100vh - 100px) ;
+}
+
+.lateral{
+    color: darkslategrey;  
+    padding: 20px 10px  ;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.principal{ 
+    background-color:mediumseagreen ;
+    margin: 0;
+    width: 20%;
+    
+    display: flex;
+    justify-content: center;
+    align-items:self-start ;
+    font-size:25px ;
+    color: white;
+    padding: 10px 10px;
+}
+.classes{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+.classes div{
+    
+    background-color:mediumseagreen;
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    color: white;
+}
+
+.classes div:hover{
+    background-color: darkslategrey;
+    color: white;
+    text-decoration: underline;
+}
