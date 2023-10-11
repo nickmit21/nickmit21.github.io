@@ -40,25 +40,7 @@
 
 body{
     margin: 0;
-}
-
-.palavras{
-    margin: 20px;
-}
-
-.palavras h1{
-    align-items: center;
-    display: flex; 
-    color: brown;
-    justify-content:center;
-}
-
-.palavras h2{
-    align-items: center;
-    display: flex; 
-    color: brown;
-    justify-content:left;
-    margin-left: 120px;
+    background-color: gray;
 }
 
 .corpo{
@@ -66,22 +48,27 @@ body{
     display: flex; 
     color: brown;
     justify-content:center;
+    margin: 20px;
 }
 
-.principal{
-    height: 300px;
-    width: 300px;
-}
-
-.secundaria{
-    height: 50px;
-    width: 50px;
-}
-
-.sobre{
-
+.separar{
+    background-color: white;
+    border-radius: 5px;
+    gap: 30px;
+    width: 900px;
+    height: 500px;
+    display: flex;
+    align-items: center;
 }
 
 .compra{
-
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-left:10px ;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    align-items: center;
 }
+
