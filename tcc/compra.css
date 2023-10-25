@@ -47,14 +47,12 @@ body{
 }
 
 .separar{
-    background-color: white;
     border-radius: 10px;
-    gap: 380px;
-    width: 85%;
-    height: 50%;
+    gap: 15px;
+    padding: 20px;
     display: flex;
-    margin: 10px;
-    border: 2px solid green;
+    justify-content: center;
+    border: 1px double black;
 }
 
 .compra{
@@ -66,33 +64,48 @@ body{
     height: 500px;
     display: flex;
     justify-content: center;
-    border: 2px solid blueviolet;
+    align-items: center;
+    border: 1px double black;
   
-}
-.produto{
-    background-color: white;
-    width: 90%;
-    height: 410px;
-    display: flex;
-    flex-direction:column;
-    margin-left: 17px;
-    border-radius: 10px;
-    padding: 5px;
 }
 
 .principal{
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
-    width: 800px;
+    background-color: white;
 }
+
+.principal td img{
+    height: 100px;
+    width: 100px;
+}
+
+.principal th img{
+    height: 500px;
+    width: 500px;
+}
+
+.produto{
+    background-color: white;
+    width: 95%;
+    height: 490px;
+    display: flex;
+    flex-direction:column;
+    margin-left: 25px;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px double black;
+}
+
 .tabela td{
-    border: 2px solid black;
-    color: grey;
+    border: 2px solid rgb(158, 157, 157);
+    color: black;
 }
+
 .tabela{
     padding-bottom: 240px;
 }
+
 .separar div{
     display: flex;
     flex-direction: column;
@@ -100,13 +113,14 @@ body{
 
 .info{
     background-color: white;
-    width: 90%;
+    width: 95%;
     height: 300px;
     display: flex;
     flex-direction:column;
     padding: 5px;
-    margin-left: 17px;
+    margin-left: 25px;
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+    border: 1px double black;
 }
