@@ -48,11 +48,22 @@ body{
 
 .separar{
     border-radius: 10px;
-    gap: 15px;
-    padding: 20px;
+    padding: 0 30px 15px 25px;
     display: flex;
-    justify-content: center;
-    border: 1px double black;
+    justify-content: space-between;
+}
+
+@media(max-width:700px){
+
+    .separar{
+        display: flex;
+        flex-direction: column;
+    }
+    .img{
+        display: flex;
+        height: 95%;
+        width: 95%;
+    }
 }
 
 .compra{
@@ -60,13 +71,31 @@ body{
     border-radius: 10px;
     padding-left: 10px;
     margin-left:10px ;
-    width: 300px;
-    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px double black;
-  
+    color: black;
+    width: calc(40% - 20px);
+    flex-direction: column;
+    gap: 10px;
+}
+.compra div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-direction: row;
+}
+
+.img{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px double black;
+    width: 70%;
+}
+
+.img h2{
+    margin-left: 10px;
 }
 
 .principal{
@@ -76,19 +105,19 @@ body{
 }
 
 .principal td img{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
 }
 
 .principal th img{
-    height: 500px;
-    width: 500px;
+    height: 525px;
+    width: 525px;
 }
 
 .produto{
     background-color: white;
     width: 95%;
-    height: 490px;
+
     display: flex;
     flex-direction:column;
     margin-left: 25px;
@@ -102,11 +131,7 @@ body{
     color: black;
 }
 
-.tabela{
-    padding-bottom: 240px;
-}
-
-.separar div{
+.separar > div{
     display: flex;
     flex-direction: column;
 }
@@ -114,7 +139,6 @@ body{
 .info{
     background-color: white;
     width: 95%;
-    height: 300px;
     display: flex;
     flex-direction:column;
     padding: 5px;
@@ -123,4 +147,8 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
     border: 1px double black;
+    color: black;
+}
+.info h2{
+    color: brown;
 }
