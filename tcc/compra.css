@@ -12,6 +12,10 @@
     border-radius: 10px;
 }
 
+.palavras{
+    margin: 20px;
+}
+
 .menusinho{
     align-items: center;
     display: flex;
@@ -36,119 +40,48 @@
 
 body{
     margin: 0;
-    background-color: gray;
 }
 
-.corpo{
+.palavras{
+    margin: 20px;
+}
+
+.palavras h1{
+    align-items: center;
     display: flex; 
     color: brown;
     justify-content:center;
-    flex-direction: column;
 }
 
-.separar{
-    border-radius: 10px;
-    padding: 0 30px 15px 25px;
-    display: flex;
-    justify-content: space-between;
-}
-
-@media(max-width:700px){
-
-    .separar{
-        display: flex;
-        flex-direction: column;
-    }
-    .img{
-        display: flex;
-        height: 95%;
-        width: 95%;
-    }
-}
-
-.compra{
-    background-color: white;
-    border-radius: 10px;
-    padding-left: 10px;
-    margin-left:10px ;
-    display: flex;
-    justify-content: center;
+.palavras h2{
     align-items: center;
-    border: 1px double black;
-    color: black;
-    width: calc(40% - 20px);
-    flex-direction: column;
-    gap: 10px;
+    display: flex; 
+    color: brown;
+    justify-content:left;
+    margin-left: 120px;
 }
-.compra div{
-    display: flex;
+
+.corpo{
     align-items: center;
-    gap: 5px;
-    flex-direction: row;
-}
-
-.img{
-    background-color: white;
-    border-radius: 10px;
-    border: 1px double black;
-    width: 70%;
-}
-
-.img h2{
-    margin-left: 10px;
+    display: flex; 
+    color: brown;
+    justify-content:center;
 }
 
 .principal{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
+    height: 300px;
+    width: 300px;
 }
 
-.principal td img{
-    height: 150px;
-    width: 150px;
+.secundaria{
+    height: 50px;
+    width: 50px;
 }
 
-.principal th img{
-    height: 525px;
-    width: 525px;
+.sobre{
+
 }
 
-.produto{
-    background-color: white;
-    width: 95%;
+.compra{
 
-    display: flex;
-    flex-direction:column;
-    margin-left: 25px;
-    border-radius: 10px;
-    padding: 5px;
-    border: 1px double black;
-}
-
-.tabela td{
-    border: 2px solid rgb(158, 157, 157);
-    color: black;
-}
-
-.separar > div{
-    display: flex;
-    flex-direction: column;
-}
-
-.info{
-    background-color: white;
-    width: 95%;
-    display: flex;
-    flex-direction:column;
-    padding: 5px;
-    margin-left: 25px;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 1px double black;
-    color: black;
-}
-.info h2{
-    color: brown;
 }
