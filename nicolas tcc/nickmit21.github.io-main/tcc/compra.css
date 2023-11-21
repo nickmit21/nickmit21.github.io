@@ -53,19 +53,6 @@ body{
     justify-content: space-between;
 }
 
-@media(max-width:700px){
-
-    .separar{
-        display: flex;
-        flex-direction: column;
-    }
-    .img{
-        display: flex;
-        height: 95%;
-        width: 95%;
-    }
-}
-
 .compra{
     background-color: white;
     border-radius: 10px;
@@ -102,6 +89,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: white;
+    border-radius: 10px;
 }
 
 .principal td img{
@@ -151,4 +139,25 @@ body{
 }
 .info h2{
     color: brown;
+}
+
+@media(max-width:700px){
+
+    .separar{
+        display: flex;
+        flex-direction: column;
+    }
+    .img{
+        display: flex;
+        height: 90%;
+        width: 90%;
+    }
+    .principal td img{
+        width:70%;
+        height:70%;
+    }
+    .principal th img{
+        width:20%;
+        height:20%;
+    }
 }
