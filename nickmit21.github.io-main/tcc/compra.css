@@ -70,14 +70,13 @@ body{
     flex-direction: column;
 }
  
-
-
 .valor{
     display: flex;
     flex-direction: column;
-    padding:40px 10px;
+    padding:50px 20px;
     font-size: 20px;
     height: 100px;
+    gap: 7px;
 }
 
 .numero{
@@ -88,13 +87,31 @@ body{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 10px;
-    background-color: aqua;
+    padding-left: 20px;
     gap: 10px;
 }
 
-.venda{
+.pai{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
 
+.venda{
+    color: white;
+    background-color: brown;
+    gap: 10px;
+    padding-top: 10px;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.venda a{
+    color: white;
+    text-decoration: none;
 }
 
 .img{
