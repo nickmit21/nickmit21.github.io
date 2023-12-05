@@ -108,7 +108,7 @@ body{
 
 @media(max-width:600px){
     .menu img{
-        height: 30px;
+        height: 35px;
         display: flex;
         justify-content: center;
     }
@@ -124,7 +124,16 @@ body{
     .menusinho{
         gap: 0;
         justify-content: space-around;
-        
     }
 
+    .menusinho input{
+        height: 2px;
+    }
+
+    #pesquisa{
+        display: flex;
+        gap: 5px;
+        margin-right: 10px;
+        width: 70%;
+    }
 }

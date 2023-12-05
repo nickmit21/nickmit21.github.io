@@ -4,34 +4,44 @@
     display: flex;
     justify-content: space-around;
     color: white;
-    padding: 40px;
-    gap: 10px;
+    padding: 30px;
+    gap: 20px;
+}
+
+.menu img{
+    height: 50px;
 }
 
 .menu input{
     border-radius: 10px;
 }
 
+.palavras{
+    margin: 20px;
+}
 .menusinho{
     align-items: center;
     display: flex;
     gap: 20px;
     width: 100%;
 }
-
 .menusinho input{
     width: 100%;
     padding: 13px;
 }
-
 .menusinho div{
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
+.menusinho label{
+    display: none;
+}
+
 #pesquisa{
     width: 100%;
+    gap: 0;
 }
 
 body{
@@ -44,8 +54,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 25px 300px;
-    height: 400px;
+    margin: 25px 50px 25px 50px;
+    width: 90%;
+    height: 70%;
+    padding-bottom: 25px;
     gap: 180px;
     border: 1px double black;
 }
@@ -77,5 +89,43 @@ body{
 .pix h2{
     color: brown;
     display: flex;
+
+}
+
+@media(max-width:600px){
+    .menu img{
+        height: 35px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .menusinho div{
+        display: none;
+    }
+
+    .menusinho label{
+        display: flex;
+        color: white;
+    }
+    .menusinho{
+        gap: 0;
+        justify-content: space-around;
+    }
+
+    .menusinho input{
+        height: 2px;
+    }
+
+    #pesquisa{
+        display: flex;
+        gap: 5px;
+        margin-right: 10px;
+        width: 70%;
+    }
+
+    .tudo{
+        flex-direction: column;
+        margin-top: 250px;
+    }
 
 }
