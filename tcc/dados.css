@@ -1,0 +1,127 @@
+.menu{
+    background-color: rgb(5, 96, 200);
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 30px;
+    gap: 20px;
+}
+
+.menu img{
+    height: 50px;
+}
+
+.menu input{
+    border-radius: 10px;
+}
+
+.palavras{
+    margin: 20px;
+}
+.menusinho{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.menusinho input{
+    width: 100%;
+    padding: 13px;
+}
+.menusinho div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.menusinho label{
+    display: none;
+}
+
+#pesquisa{
+    width: 100%;
+    gap: 0;
+}
+
+body{
+    margin: 0;
+    background-color: gray;
+}
+
+.tudo{
+    width: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 350px 5px ;
+    padding-bottom: 25px;
+    gap: 180px;
+    border: 1px double black;
+}
+
+.entrga{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.entrega h2{
+    color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dados h2{
+    color: brown;
+    display: flex;
+}
+
+@media(max-width:600px){
+    .menu img{
+        height: 35px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .menusinho div{
+        display: none;
+    }
+
+    .menusinho label{
+        display: flex;
+        color: white;
+    }
+    .menusinho{
+        gap: 0;
+        justify-content: space-around;
+    }
+
+    .menusinho input{
+        height: 2px;
+    }
+
+    #pesquisa{
+        display: flex;
+        gap: 5px;
+        margin-right: 10px;
+        width: 70%;
+    }
+
+    .tudo{
+        flex-direction: column;
+        margin-top: 250px;
+    }
+
+}
