@@ -55,7 +55,8 @@ body{
     justify-content: center;
     align-items: center;
     margin: 25px 50px 25px 50px;
-    width: 90%;
+    width:700px;
+    margin-left: 350px;
     height: 70%;
     padding-bottom: 25px;
     gap: 180px;

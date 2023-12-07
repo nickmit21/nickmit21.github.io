@@ -55,7 +55,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5px 350px 5px ;
+    margin: 1px 350px 1px ;
     padding-bottom: 25px;
     gap: 180px;
     border: 1px double black;
