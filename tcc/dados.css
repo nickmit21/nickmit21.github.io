@@ -39,6 +39,11 @@
     display: none;
 }
 
+.menusinho a{
+    color: white;
+    text-decoration: none;
+}
+
 #pesquisa{
     width: 100%;
     gap: 0;

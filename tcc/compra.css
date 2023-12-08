@@ -25,10 +25,12 @@
     gap: 20px;
     width: 100%;
 }
+
 .menusinho input{
     width: 100%;
     padding: 13px;
 }
+
 .menusinho div{
     display: flex;
     align-items: center;
@@ -37,6 +39,11 @@
 
 .menusinho label{
     display: none;
+}
+
+.menusinho a{
+    color: white;
+    text-decoration: none;
 }
 
 #pesquisa{

@@ -54,48 +54,46 @@ body{
     background-color: gray;
 }
 
-.tudo{
+.tudinho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
     background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 25px 50px 25px 50px;
-    width:700px;
-    margin-left: 350px;
-    height: 70%;
-    padding-bottom: 25px;
-    gap: 180px;
-    border: 1px double black;
+    margin-top: 80px;
+    height: 300px;
+    width: 1000px;
+    margin-left:180px ;
 }
 
-.cartao{
+.contato{
     display: flex;
     flex-direction: column;
+    gap:10px ;
 }
 
-.cartao h2{
+.contato i{
+    display: flex;
+    gap: 5px;
+}
+
+.contato h3{
     color: brown;
 }
 
-#cvc{
-    width: 25px;
-}
-
-#validade{
-    width: 40px;
-}
-
-.pix{
+.contratar{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    gap:10px ;
 }
 
-.pix h2{
-    color: brown;
+.contratar i{
     display: flex;
+    gap: 5px;
+}
 
+.contratar h3{
+    color: brown;
 }
 
 @media(max-width:600px){
@@ -129,9 +127,11 @@ body{
         width: 70%;
     }
 
-    .tudo{
-        flex-direction: column;
-        margin-top: 250px;
+    .tudinho{
+        margin-left:20px;
+        margin-top: 80px;
+        width: 430px;
+        height: 230px;
+        padding: 15px;
     }
-
 }

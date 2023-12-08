@@ -54,48 +54,20 @@ body{
     background-color: gray;
 }
 
-.tudo{
+.sobre{
     background-color: white;
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin: 25px 50px 25px 50px;
-    width:700px;
-    margin-left: 350px;
-    height: 70%;
-    padding-bottom: 25px;
-    gap: 180px;
-    border: 1px double black;
-}
-
-.cartao{
-    display: flex;
     flex-direction: column;
+    margin-top:130px ;
+    height: 180px;
+    width: 800px;
+    margin-left:250px;
+    padding: 20px;
 }
 
-.cartao h2{
+.sobre h3{
     color: brown;
-}
-
-#cvc{
-    width: 25px;
-}
-
-#validade{
-    width: 40px;
-}
-
-.pix{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.pix h2{
-    color: brown;
-    display: flex;
-
 }
 
 @media(max-width:600px){
@@ -129,9 +101,10 @@ body{
         width: 70%;
     }
 
-    .tudo{
-        flex-direction: column;
-        margin-top: 250px;
+    .sobre{
+        margin-left: 30px;
+        width: 410px;
+        height: 300px;
+        margin-top: 30px;
     }
-
 }
