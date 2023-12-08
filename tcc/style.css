@@ -19,24 +19,23 @@
 .palavras{
     margin: 20px;
 }
+
 .menusinho{
     align-items: center;
     display: flex;
     gap: 20px;
     width: 100%;
 }
+
 .menusinho input{
     width: 100%;
     padding: 13px;
 }
+
 .menusinho div{
     display: flex;
     align-items: center;
-    gap: 5px;
-}
-
-.menusinho label{
-    display: none;
+    gap: 10px;
 }
 
 .menusinho a{
@@ -44,9 +43,59 @@
     text-decoration: none;
 }
 
+.dropdown{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dropdown > div{
+    display: none;
+    text-decoration: none;     
+    position: absolute;
+    margin-top: 120px;
+    background-color: blue;
+    border-radius:2px ;
+}
+
+.dropdown i{
+    display: none;
+    background-color: brown;
+    height: 30px;  
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.dropdown:hover > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown > div > a:hover{
+    color: white;
+    background-color: brown;
+    width: 54px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown > div > a{
+    padding: 4px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.coisa a{
+    display: flex;
+}
+
 #pesquisa{
     width: 100%;
-    gap: 0;
+    gap: 5;
 }
 
 body{
@@ -55,21 +104,12 @@ body{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    margin-bottom: 15px;
 }
 
 .corpo{
     display: flex;
     margin: 0px 140px;
     justify-content:right;
-}
-
-.main{
-    background-color: yellow;
-    width: 100%;
-}
-.navbar label{
-    display: none;
 }
 
 .cards{
@@ -111,6 +151,13 @@ body{
     flex-direction: column; 
 }
 
+.baixo{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    color: brown;
+}
+
 @media(max-width:600px){
     .menu img{
         height: 35px;
@@ -118,14 +165,18 @@ body{
         justify-content: center;
     }
     
-    .menusinho div{
+    .coisa a{
         display: none;
     }
 
-    .menusinho label{
-        display: flex;
-        color: white;
+    .menusinho i{
+        display: none;
     }
+
+    .dropdown > i{
+        display: flex;  
+    }
+
     .menusinho{
         gap: 0;
         justify-content: space-around;
@@ -141,4 +192,5 @@ body{
         margin-right: 10px;
         width: 70%;
     }
+
 }

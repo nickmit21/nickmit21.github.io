@@ -19,24 +19,23 @@
 .palavras{
     margin: 20px;
 }
+
 .menusinho{
     align-items: center;
     display: flex;
     gap: 20px;
     width: 100%;
 }
+
 .menusinho input{
     width: 100%;
     padding: 13px;
 }
+
 .menusinho div{
     display: flex;
     align-items: center;
-    gap: 5px;
-}
-
-.menusinho label{
-    display: none;
+    gap: 10px;
 }
 
 .menusinho a{
@@ -44,9 +43,59 @@
     text-decoration: none;
 }
 
+.dropdown{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dropdown > div{
+    display: none;
+    text-decoration: none;     
+    position: absolute;
+    margin-top: 120px;
+    background-color: blue;
+    border-radius:2px ;
+}
+
+.dropdown i{
+    display: none;
+    background-color: brown;
+    height: 30px;  
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.dropdown:hover > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown > div > a:hover{
+    color: white;
+    background-color: brown;
+    width: 54px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown > div > a{
+    padding: 4px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.coisa a{
+    display: flex;
+}
+
 #pesquisa{
     width: 100%;
-    gap: 0;
+    gap: 5px;
 }
 
 body{
@@ -62,8 +111,8 @@ body{
     background-color: white;
     margin-top: 80px;
     height: 300px;
-    width: 1000px;
-    margin-left:180px ;
+    width: 700px;
+    margin-left:350px ;
 }
 
 .contato{
@@ -102,15 +151,19 @@ body{
         display: flex;
         justify-content: center;
     }
-    
-    .menusinho div{
+
+    .coisa a{
         display: none;
     }
 
-    .menusinho label{
-        display: flex;
-        color: white;
+    .menusinho i{
+        display: none;
     }
+
+    .dropdown > i{
+        display: flex;  
+    }
+
     .menusinho{
         gap: 0;
         justify-content: space-around;
@@ -128,10 +181,11 @@ body{
     }
 
     .tudinho{
-        margin-left:20px;
+        margin-left:15px;
         margin-top: 80px;
-        width: 430px;
+        width: 440px;
         height: 230px;
         padding: 15px;
+        font-size: 14px;
     }
 }
