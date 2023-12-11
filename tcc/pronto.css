@@ -103,14 +103,18 @@ body{
     background-color: gray;
 }
 
+.tudo{
+    display: flex;
+    justify-content: center;
+}
+
 .certo{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: white;
-    margin-top: 100px;
-    margin-left: 400px;
-    width: 500px;
+    margin-top: 8%;
+    width: 40%;
     padding-top:10px;
 }
 
@@ -173,4 +177,10 @@ body{
         margin-right: 10px;
         width: 70%;
     }
+
+    .certo{
+        width:70% ;
+        margin-top: 20%;
+    }
+    
 }

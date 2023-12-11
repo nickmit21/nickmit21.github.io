@@ -103,16 +103,20 @@ body{
     background-color: gray;
 }
 
+.tudo{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
 .tudinho{
     display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 50px;
+    justify-content: center;
     background-color: white;
-    margin-top: 80px;
-    height: 300px;
-    width: 700px;
-    margin-left:350px ;
+    height: 10%;
+    width: 40%;
+    padding: 20px;
 }
 
 .contato{
@@ -181,11 +185,8 @@ body{
     }
 
     .tudinho{
-        margin-left:15px;
-        margin-top: 80px;
-        width: 440px;
-        height: 230px;
         padding: 15px;
         font-size: 14px;
+        width: 90%;
     }
 }

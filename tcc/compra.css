@@ -104,6 +104,7 @@ body{
 
 .corpo{
     display: flex; 
+    align-items: center;
     color: brown;
     justify-content:center;
     flex-direction: column;
@@ -114,6 +115,7 @@ body{
     padding: 0 30px 15px 25px;
     display: flex;
     justify-content: space-between;
+    margin-top: 2%;
 }
 
 .separar > div{
@@ -125,11 +127,9 @@ body{
     background-color: white;
     border-radius: 10px;
     padding-left: 10px;
-    margin-left:10px ;
     display: flex;
     border: 1px double black;
     color: black;
-    width: calc(40% - 20px);
     flex-direction: column;
 }
  
@@ -193,6 +193,8 @@ body{
     flex-direction: column;
     background-color: white;
     border-radius: 10px;
+    margin-right: 100px;
+    width: 95%;
 }
 
 .principal td img{
@@ -201,17 +203,15 @@ body{
 }
 
 .principal th img{
-    height: 525px;
-    width: 525px;
+    height: 700px;
+    width: 700px;
 }
 
 .produto{
     background-color: white;
     width: 95%;
-
     display: flex;
     flex-direction:column;
-    margin-left: 25px;
     border-radius: 10px;
     padding: 5px;
     border: 1px double black;
@@ -228,8 +228,6 @@ body{
     display: flex;
     flex-direction:column;
     padding: 5px;
-    margin-left: 25px;
-    margin-right: 25px;
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -249,18 +247,22 @@ body{
 
     .img{
         display: flex;
-        height: 90%;
-        width: 90%;
+        height: 100%;
+        width: 100%;
+    }
+
+    .principal{
+        padding: 10px;
     }
 
     .principal td img{
-        width:40%;
-        height:40%;
+        width:60px;
+        height:60px;
     }
 
     .principal th img{
-        width:100%;
-        height:100%;
+        width:250px;
+        height:250px;
     }
 
     .menu img{
@@ -297,4 +299,17 @@ body{
         width: 70%;
     }
 
+    .info{
+        width: 90%;
+    }
+
+    .produto{
+        width: 90%;
+    }
+
+    .compra{
+        width: 90%;
+        margin-top:10px ;
+        padding-bottom: 10px;
+    }
 }

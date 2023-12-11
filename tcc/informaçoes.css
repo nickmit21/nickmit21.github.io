@@ -103,15 +103,18 @@ body{
     background-color: gray;
 }
 
+.corpo{
+    display: flex;
+    justify-content: center;
+    margin: 3% 1% ;
+}
+
 .tudo{
+    width: 50%;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 25px 50px 25px 50px;
-    width:700px;
-    margin-left: 350px;
-    height: 70%;
     padding-bottom: 25px;
     gap: 180px;
     border: 1px double black;
@@ -184,7 +187,8 @@ body{
 
     .tudo{
         flex-direction: column;
-        margin-top: 250px;
+        gap: 10px;
+        margin-top: 3%;
     }
 
 }
