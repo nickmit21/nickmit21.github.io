@@ -190,7 +190,11 @@ body{
         flex-direction: column;
         gap: 10px;
         margin-top: 3%;
-        width: 60%;
+        width: 70%;
     }
 
+    .cartao{
+        display: flex;
+        align-items: center;
+    }
 }
