@@ -119,59 +119,6 @@ body{
     flex-direction: column;
 }
 
-.resumo{
-    background-color: white;
-    border-radius: 10px;
-    padding: 10px;
-    display: flex;
-    border: 1px double black;
-    font-size: 17px;
-    width: 80%;
-}
-
-.resumo b{
-    font-size: 20px;
-}
-
-.resuminho{
-    display: flex;
-    color: black;
-}
-
-.resuminho tr{
-    display: flex;
-    gap: 40px;
-}
-
-.geitos{
-    display: flex;
-    flex-direction: column;
-    color: black;
-}
-
-.pai{
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-}
-
-.venda{
-    color: white;
-    background-color: brown;
-    gap: 10px;
-    padding-top: 10px;
-    height: 30px;
-    width: 200px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-}
-
-.venda a{
-    color: white;
-    text-decoration: none;
-}
-
 .cesta{
     width: 900%;
     margin-right:50px ;
@@ -219,6 +166,59 @@ body{
 
 .baixo input{
     width: 35px;
+}
+
+.resumo{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    border: 1px double black;
+    font-size: 17px;
+    width:calc(500% - 100%);
+}
+
+.resumo b{
+    font-size: 20px;
+}
+
+.resuminho{
+    display: flex;
+    color: black;
+}
+
+.resuminho tr{
+    display: flex;
+    gap: 40px;
+}
+
+.geitos{
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.pai{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.venda{
+    color: white;
+    background-color: brown;
+    gap: 10px;
+    padding-top: 10px;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.venda a{
+    color: white;
+    text-decoration: none;
 }
 
 @media(max-width:600px){
