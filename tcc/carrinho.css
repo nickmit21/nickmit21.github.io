@@ -112,6 +112,8 @@ body{
 .separar{
     display: flex;
     margin-top: 5%;
+    width: 100%;
+    padding: 0 70px;
 }
 
 .separar > div{
@@ -149,7 +151,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;    
+    gap: 40px;   
 }
 
 .baixo div{
@@ -175,7 +177,12 @@ body{
     display: flex;
     border: 1px double black;
     font-size: 17px;
-    width:calc(500% - 100%);
+    width:calc(500% - 190%);
+    color: black;
+}
+
+.resumo h2{
+    color: brown;
 }
 
 .resumo b{
@@ -184,24 +191,26 @@ body{
 
 .resuminho{
     display: flex;
-    color: black;
-}
-
-.resuminho tr{
-    display: flex;
-    gap: 40px;
-}
-
-.geitos{
-    display: flex;
     flex-direction: column;
-    color: black;
+}
+
+.resuminho > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.resuminho hr{
+    width: 100%;
+}
+
+.verde{
+    color: green;
 }
 
 .pai{
     display: flex;
     justify-content: center;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .venda{
@@ -258,18 +267,48 @@ body{
 
     .separar{
         flex-direction: column;
+        padding:0 20px;
+        align-items: center;
     }
 
     .cesta{
-        width: 90%;
+        width: calc(80% - 20px);
+        margin-bottom: 20px;
+        align-items: center;
+        margin-left: 10%;
     }
 
-    .baixo{
-        flex-direction: column;
-        width: 90%;
+    .tudo{
+        display: flex;
     }
 
     .cima{
         flex-direction: column;
+        gap: 15%;
+        margin-right: 20px;
+    }
+
+    .cima label{
+        padding-top: 50px;
+        margin-bottom: 50px;
+        margin-right: 0;
+    }
+
+    .baixo{
+        flex-direction: column;
+    }
+
+    .baixo div{
+        flex-direction: column;
+    }
+
+    .baixo img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .resumo{
+        width: calc(80% - 20px);
+        margin-bottom: 20px;
     }
 }
