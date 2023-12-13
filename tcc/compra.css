@@ -205,7 +205,7 @@ body{
 .principal th img{
     height: 650px;
     width: 650px;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .produto{
