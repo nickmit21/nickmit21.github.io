@@ -203,8 +203,9 @@ body{
 }
 
 .principal th img{
-    height: 700px;
-    width: 700px;
+    height: 650px;
+    width: 650px;
+    overflow: hidden;
 }
 
 .produto{
