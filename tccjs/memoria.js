@@ -15,5 +15,13 @@ cachorro=<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8YCbLc
 coelho=<img src="https://www.petz.com.br/blog/wp-content/uploads/2018/10/dente-de-coelho.jpg"></img>
 peixe=<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsNlM7HyYPGATtnOC8Hg22ov6EqpLykN49qg&s"></img>
 
-animais=['elefante','tartaruga','passaro']
-animal=animais[Math.floor(Math.random() * animais.length)]
+animais=[elefante,tartaruga,passaro,lobo,golfinho,coala,lagarto,coruja,tatu,onça,capivara,gorila,cobra,cachorro,coelho,peixe]
+
+function ca() {
+	
+    for(i=0;i<16;i++) {
+    
+        animais.push(Math.floor((Math.random() * 16) + 1)); 	
+
+    }
+}
