@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#forca{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.personagem{
+    display: flex;
+    width: 220px;
+}
+
+input{
+    border-radius: 10px;
+}
+
+#botao{
+    background-color: green;
+    border-radius: 10px;
+}

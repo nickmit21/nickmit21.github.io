@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>informaçoes</title>
+    <link rel="stylesheet" href="informaçoes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="menu"> 
+        <a href="index.html" ><img src="https://www.levelupcampaigns.com/wp-content/uploads/2021/02/LevelUP_Asset-1.png" alt="imagem da empresa"></a>
+        <div class="menusinho">
+            <div id="pesquisa">
+                <i class="fa fa-search"></i>
+                <input placeholder="Pesquisar">
+            </div>
+            <div class="coisa">
+                <i class="fa fa-user-circle-o"></i>
+                <a href="sobre.html">Sobre</a>
+                <i class="fa fa-envelope-o"></i>
+                <a href="contato.html">Contato</a>
+                <i class="fa fa-shopping-cart"></i>
+                <a href="carrinho.html">Carrinho</a>
+            </div>
+                <div class="dropdown"><i class="fa fa-bars"></i>
+                    <div>
+                        <a href="sobre.html">Sobre</a>
+                        <a href="contato.html">Contato</a>
+                        <a href="carrinho.html">Carrinho</a>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="corpo">
+        <div class="tudo">
+            <div class="cartao">
+                <h2>pague com o cartão</h2><br>
+                <form>
+                    número do cartão<br>
+                    <input maxlength="16" placeholder="____.____.____.____"><br><br>
+                    nome impresso no cartão<br>
+                    <input type="text"><br><br>
+                    validade<br>
+                    <input id="validade" maxlength="5" placeholder="__/__"><br><br>
+                    cvc<br>
+                    <input id="cvc" maxlength="3" type="text"><br><br>
+                    número de parcelas disponiveis<br>
+                    <select>
+                        <option>1x de R$ 2.933,00 sem juros</option>
+                        <option>2x de R$ 1.466,50 sem juros</option>
+                        <option>3x de R$ 977,66 sem juros</option>
+                        <option>4x de R$ 733,25 sem juros</option>
+                        <option>5x de R$ 600,00 com juros</option>
+                        <option>6x de R$ 525,00 com juros</option>
+                        <option>7x de R$ 461,42 com juros</option>
+                        <option>8x de R$ 408,75 com juros</option>
+                    </select><br><br>
+                    <a href="pronto.html"><input type="button" value="enviar"></a>
+                </form>
+            </div>
+            <div class="pix">
+                <h2>pague com pix</h2><br>
+                leia o qr code<br>
+                <img src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/1200px-QR_code_for_mobile_English_Wikipedia.svg.png" alt="qr code" height="150px">
+                <a href="pronto.html"><input type="button" value="pago"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
