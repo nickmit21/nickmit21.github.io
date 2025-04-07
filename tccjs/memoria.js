@@ -1,5 +1,8 @@
 cartas = document.getElementById('cartas')
 
+quan=document.getElementById('quan')
+deu=1000
+
 c1 = -1
 c2 = -1
 
