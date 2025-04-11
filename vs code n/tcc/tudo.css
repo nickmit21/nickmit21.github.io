@@ -1,0 +1,14 @@
+.menu{
+    align-items: center;
+    display: flex;
+    color: white;
+    padding: 30px;
+    gap: 20px;
+}
+
+.menu img{
+    height: 90px;
+}
+
+
+
