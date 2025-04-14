@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    margin-top: 110px;
+}
+
+
+.navbar{
+    background-color: blue;
+    height: 80px;
+    width: 100%;
+    top: 0%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar a{
+    color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+} 
+.corpo{
+    display: flex;
+    margin: 30px;
+    justify-content:right;
+}
+
+.lateral{
+    background-color: red;
+    width: 150px;
+    position: fixed;
+    left: 30px;
+    height: calc(100% - 140px);
+}
+
+.main{
+    background-color: yellow;
+    width: calc(100% - 180px);
+
+}
+.navbar label{
+    display: none;
+}
+
+@media(max-width:600px){
+
+    .lateral{
+        display: none;
+    }
+
+    .main{
+        width:100% ;
+    }
+    .navbar a{
+        display: none;
+    }
+    .navbar label{
+        display: flex;
+        color: white;
+        border: 7px solid red ;
+    }
+}
